@@ -19,5 +19,3 @@ RUN curl -sL https://github.com/TryGhost/Ghost/releases/download/0.11.9/Ghost-0.
 RUN unzip /tmp/ghost.zip -d /workspace/ghost
 
 RUN cd /workspace/ghost && npm -s install
-
-ADD Saga /workspace/ghost/content/themes/Saga
